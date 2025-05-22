@@ -6,47 +6,124 @@
 <title>Cybersecurity Internship Plans Compilation</title>
 <style>
   body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; max-width: 900px; }
-  h1 { text-align: center; }
-  h2 { color: #003366; border-bottom: 2px solid #003366; padding-bottom: 5px; }
-  h3 { color: #005599; }
-  ul { margin-top: 0; }
+  h1 { text-align: center; color: #003366; }
+  h2 { color: #003366; border-bottom: 2px solid #003366; padding-bottom: 5px; margin-top: 40px; }
+  h3 { color: #005599; margin-top: 20px; }
+  ul { margin-top: 0; margin-bottom: 10px; }
   a { color: #1a0dab; text-decoration: none; }
   a:hover { text-decoration: underline; }
   .resources { margin-top: 10px; }
+  .month { margin-left: 10px; margin-bottom: 10px; }
+  .week { margin-left: 30px; margin-bottom: 8px; }
 </style>
 </head>
 <body>
 
 <h1>Cybersecurity Internship Plans Compilation</h1>
 
+<!-- 1. Web Application & API Security -->
 <section>
   <h2>1. Web Application & API Security</h2>
   <p><strong>Duration:</strong> 12 Weeks<br/>
   <strong>Focus:</strong> Secure web application design, testing, API security, threat modeling.</p>
 
-  <h3>Month 1 - Foundations:</h3>
-  <ul>
-    <li>Web application basics, OWASP Top 10</li>
-    <li>API security concepts (REST, GraphQL, OAuth2)</li>
-    <li>Hands-on: Vulnerability scanning, Burp Suite intro</li>
-  </ul>
+  <div class="month">
+    <h3>Month 1 - Foundations</h3>
+    <div class="week">
+      <h4>Week 1</h4>
+      <ul>
+        <li>Introduction to web applications and security fundamentals</li>
+        <li>Understanding OWASP Top 10 vulnerabilities overview</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 2</h4>
+      <ul>
+        <li>Introduction to APIs: REST, GraphQL basics</li>
+        <li>Authentication & authorization methods (OAuth2, JWT)</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 3</h4>
+      <ul>
+        <li>Setting up tools: Burp Suite and OWASP ZAP basics</li>
+        <li>Performing automated vulnerability scanning</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 4</h4>
+      <ul>
+        <li>Introduction to manual testing techniques for web apps</li>
+        <li>Basic scripting for automation (Python or JavaScript)</li>
+      </ul>
+    </div>
+  </div>
 
-  <h3>Month 2 - Advanced Testing:</h3>
-  <ul>
-    <li>Manual testing techniques, fuzzing, authentication testing</li>
-    <li>API testing and securing microservices</li>
-    <li>Hands-on: Exploit XSS, SQLi, and API flaws</li>
-  </ul>
+  <div class="month">
+    <h3>Month 2 - Advanced Testing</h3>
+    <div class="week">
+      <h4>Week 5</h4>
+      <ul>
+        <li>Testing for Cross-Site Scripting (XSS) and SQL Injection (SQLi)</li>
+        <li>Hands-on exploitation of common web vulnerabilities</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 6</h4>
+      <ul>
+        <li>API security testing: parameter tampering, rate limiting</li>
+        <li>Securing microservices communication</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 7</h4>
+      <ul>
+        <li>Advanced manual testing with Burp Suite extensions</li>
+        <li>Fuzzing APIs and web inputs</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 8</h4>
+      <ul>
+        <li>Authentication bypass techniques</li>
+        <li>Hands-on testing with real-world vulnerable applications</li>
+      </ul>
+    </div>
+  </div>
 
-  <h3>Month 3 - Automation and Reporting:</h3>
-  <ul>
-    <li>Automation with scripting and CI/CD integration</li>
-    <li>Writing security reports and remediation advice</li>
-    <li>Final project: Secure an API and present findings</li>
-  </ul>
+  <div class="month">
+    <h3>Month 3 - Automation and Reporting</h3>
+    <div class="week">
+      <h4>Week 9</h4>
+      <ul>
+        <li>Integrating security tests into CI/CD pipelines</li>
+        <li>Scripting automated tests using Python</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 10</h4>
+      <ul>
+        <li>Writing professional security test reports</li>
+        <li>Remediation advice and best practices</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 11</h4>
+      <ul>
+        <li>Final project: Secure a vulnerable API</li>
+        <li>Present findings and remediation steps</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 12</h4>
+      <ul>
+        <li>Review and refine skills</li>
+        <li>Optional CTF challenges related to web & API security</li>
+      </ul>
+    </div>
+  </div>
 
   <p><strong>Tools:</strong> Burp Suite, OWASP ZAP, Postman, GitHub Actions, Python</p>
-
   <div class="resources">
     <strong>Optional Resources:</strong>
     <ul>
@@ -56,34 +133,109 @@
   </div>
 </section>
 
+<!-- 2. Security Operations Center (SOC) -->
 <section>
   <h2>2. Security Operations Center (SOC)</h2>
   <p><strong>Duration:</strong> 12 Weeks<br/>
   <strong>Focus:</strong> Monitoring, alerting, log analysis, incident triage.</p>
 
-  <h3>Month 1 - SOC Fundamentals:</h3>
-  <ul>
-    <li>Introduction to SOC roles, SIEM basics (Splunk/ELK)</li>
-    <li>Log sources and log formats</li>
-    <li>Hands-on: Ingest logs, create dashboards</li>
-  </ul>
+  <div class="month">
+    <h3>Month 1 - SOC Fundamentals</h3>
+    <div class="week">
+      <h4>Week 1</h4>
+      <ul>
+        <li>Introduction to SOC roles and responsibilities</li>
+        <li>Understanding SIEM concepts and architecture</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 2</h4>
+      <ul>
+        <li>Log sources, formats, and log collection basics</li>
+        <li>Hands-on: Configuring log collection</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 3</h4>
+      <ul>
+        <li>Using Splunk or ELK Stack for data ingestion</li>
+        <li>Creating dashboards and basic searches</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 4</h4>
+      <ul>
+        <li>Understanding network traffic and common alerts</li>
+        <li>Hands-on alert creation and tuning</li>
+      </ul>
+    </div>
+  </div>
 
-  <h3>Month 2 - Incident Detection:</h3>
-  <ul>
-    <li>Threat hunting, alert tuning, MITRE ATT&CK framework</li>
-    <li>Use case development and investigation</li>
-    <li>Hands-on: Analyze alerts, hunt threats</li>
-  </ul>
+  <div class="month">
+    <h3>Month 2 - Incident Detection</h3>
+    <div class="week">
+      <h4>Week 5</h4>
+      <ul>
+        <li>Threat hunting concepts and methodologies</li>
+        <li>MITRE ATT&CK framework introduction</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 6</h4>
+      <ul>
+        <li>Use case development for detection</li>
+        <li>Investigating suspicious activities</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 7</h4>
+      <ul>
+        <li>Hands-on alert analysis</li>
+        <li>Hunting for threats in logs and network data</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 8</h4>
+      <ul>
+        <li>Refining alert rules and reducing false positives</li>
+        <li>Hands-on incident prioritization</li>
+      </ul>
+    </div>
+  </div>
 
-  <h3>Month 3 - Automation & Reporting:</h3>
-  <ul>
-    <li>SOAR concepts, automate common tasks</li>
-    <li>Incident response collaboration</li>
-    <li>Final project: Build detection playbook and simulate incident response</li>
-  </ul>
+  <div class="month">
+    <h3>Month 3 - Automation & Reporting</h3>
+    <div class="week">
+      <h4>Week 9</h4>
+      <ul>
+        <li>Introduction to SOAR platforms</li>
+        <li>Automating repetitive SOC tasks</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 10</h4>
+      <ul>
+        <li>Collaboration and communication during incident response</li>
+        <li>Documenting findings and remediation</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 11</h4>
+      <ul>
+        <li>Build a detection playbook</li>
+        <li>Simulate incident response exercise</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 12</h4>
+      <ul>
+        <li>Review and skills refinement</li>
+        <li>Explore advanced SOC tools and career paths</li>
+      </ul>
+    </div>
+  </div>
 
   <p><strong>Tools:</strong> Splunk, ELK Stack, QRadar, MITRE ATT&CK Navigator</p>
-
   <div class="resources">
     <strong>Optional Resources:</strong>
     <ul>
@@ -93,107 +245,570 @@
   </div>
 </section>
 
+<!-- 3. Incident Response -->
 <section>
   <h2>3. Incident Response</h2>
   <p><strong>Duration:</strong> 12 Weeks<br/>
-  <strong>Focus:</strong> Detecting, analyzing, and responding to security incidents.</p>
+  <strong>Focus:</strong> Incident identification, containment, eradication, recovery.</p>
 
-  <h3>Month 1 - Incident Response Basics:</h3>
-  <ul>
-    <li>IR lifecycle, preparation and identification</li>
-    <li>Forensics fundamentals, collecting volatile data</li>
-    <li>Hands-on: Capture memory, disk images</li>
-  </ul>
+  <div class="month">
+    <h3>Month 1 - Incident Basics</h3>
+    <div class="week">
+      <h4>Week 1</h4>
+      <ul>
+        <li>Introduction to incident response lifecycle</li>
+        <li>Common attack types and indicators of compromise (IoCs)</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 2</h4>
+      <ul>
+        <li>Building an incident response plan</li>
+        <li>Roles and responsibilities in IR teams</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 3</h4>
+      <ul>
+        <li>Tools for detection and analysis (e.g., Wireshark, Sysinternals)</li>
+        <li>Collecting and preserving forensic evidence</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 4</h4>
+      <ul>
+        <li>Hands-on malware analysis basics</li>
+        <li>Initial incident triage and classification</li>
+      </ul>
+    </div>
+  </div>
 
-  <h3>Month 2 - Analysis & Containment:</h3>
-  <ul>
-    <li>Malware analysis basics, IOC development</li>
-    <li>Containment strategies and eradication</li>
-    <li>Hands-on: Analyze malware samples, build IOCs</li>
-  </ul>
+  <div class="month">
+    <h3>Month 2 - Containment & Eradication</h3>
+    <div class="week">
+      <h4>Week 5</h4>
+      <ul>
+        <li>Techniques for containment and isolation</li>
+        <li>Removing malware and malicious artifacts</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 6</h4>
+      <ul>
+        <li>Root cause analysis</li>
+        <li>Remediation planning and execution</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 7</h4>
+      <ul>
+        <li>Incident documentation and chain of custody</li>
+        <li>Hands-on scenario-based exercises</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 8</h4>
+      <ul>
+        <li>Communication during incidents (internal and external)</li>
+        <li>Legal and compliance considerations</li>
+      </ul>
+    </div>
+  </div>
 
-  <h3>Month 3 - Recovery & Lessons Learned:</h3>
-  <ul>
-    <li>Recovery plans, post-mortem reporting</li>
-    <li>Threat actor tracking and attribution</li>
-    <li>Final project: Full incident simulation and report</li>
-  </ul>
+  <div class="month">
+    <h3>Month 3 - Recovery & Lessons Learned</h3>
+    <div class="week">
+      <h4>Week 9</h4>
+      <ul>
+        <li>System and data recovery methods</li>
+        <li>Validating full eradication</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 10</h4>
+      <ul>
+        <li>Performing post-incident reviews</li>
+        <li>Updating policies and defenses based on findings</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 11</h4>
+      <ul>
+        <li>Participate in tabletop exercises</li>
+        <li>Build incident response playbooks</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 12</h4>
+      <ul>
+        <li>Review & reinforce skills</li>
+        <li>Explore IR certifications (e.g., GCIH, GCFA)</li>
+      </ul>
+    </div>
+  </div>
 
-  <p><strong>Tools:</strong> Volatility, Wireshark, Sysinternals, VirusTotal</p>
-
+  <p><strong>Tools:</strong> Wireshark, Sysinternals Suite, Volatility, REMnux</p>
   <div class="resources">
     <strong>Optional Resources:</strong>
     <ul>
-      <li><a href="https://www.sans.org/reading-room/whitepapers/incident/" target="_blank" rel="noopener">SANS Incident Handler's Handbook</a></li>
-      <li><a href="https://www.volatilityfoundation.org/" target="_blank" rel="noopener">Volatility Framework</a></li>
+      <li><a href="https://www.sans.org/cyber-security-courses/incident-response/" target="_blank" rel="noopener">SANS Incident Response Training</a></li>
+      <li><a href="https://www.fireeye.com/services/freeware/incident-response-tools.html" target="_blank" rel="noopener">FireEye IR Tools</a></li>
     </ul>
   </div>
 </section>
 
+<!-- 4. Threat Intelligence -->
 <section>
   <h2>4. Threat Intelligence</h2>
   <p><strong>Duration:</strong> 12 Weeks<br/>
-  <strong>Focus:</strong> Collecting, analyzing, and operationalizing threat data.</p>
+  <strong>Focus:</strong> Collection, analysis, dissemination of threat data and indicators.</p>
 
-  <h3>Month 1 - Threat Intel Fundamentals:</h3>
-  <ul>
-    <li>Intelligence lifecycle, data sources</li>
-    <li>OSINT tools and techniques</li>
-    <li>Hands-on: Collect and analyze threat data</li>
-  </ul>
+  <div class="month">
+    <h3>Month 1 - Foundations</h3>
+    <div class="week">
+      <h4>Week 1</h4>
+      <ul>
+        <li>Introduction to threat intelligence concepts and types</li>
+        <li>Understanding CTI lifecycle</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 2</h4>
+      <ul>
+        <li>Sources of threat intelligence (OSINT, closed sources)</li>
+        <li>Tools for gathering intelligence</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 3</h4>
+      <ul>
+        <li>Data collection techniques: scraping, feeds, APIs</li>
+        <li>Structuring threat data with STIX and TAXII</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 4</h4>
+      <ul>
+        <li>Introduction to threat actor profiling</li>
+        <li>Case studies of notable cyber threat actors</li>
+      </ul>
+    </div>
+  </div>
 
-  <h3>Month 2 - Analysis & Reporting:</h3>
-  <ul>
-    <li>TTPs, Indicators of Compromise (IOCs)</li>
-    <li>Threat actor profiling</li>
-    <li>Hands-on: Produce intelligence reports</li>
-  </ul>
+  <div class="month">
+    <h3>Month 2 - Analysis & Tools</h3>
+    <div class="week">
+      <h4>Week 5</h4>
+      <ul>
+        <li>Analyzing Indicators of Compromise (IoCs)</li>
+        <li>Threat intelligence platforms overview (MISP, OpenCTI)</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 6</h4>
+      <ul>
+        <li>Correlation and enrichment of threat data</li>
+        <li>Practical exercises with MISP</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 7</h4>
+      <ul>
+        <li>Using intelligence to inform defense</li>
+        <li>Threat hunting basics with intelligence input</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 8</h4>
+      <ul>
+        <li>Writing threat intelligence reports</li>
+        <li>Sharing intelligence securely</li>
+      </ul>
+    </div>
+  </div>
 
-  <h3>Month 3 - Integration & Automation:</h3>
-  <ul>
-    <li>TI platforms and sharing (MISP, STIX/TAXII)</li>
-    <li>Automate intel feeds and alerting</li>
-    <li>Final project: Develop and present threat intelligence product</li>
-  </ul>
+  <div class="month">
+    <h3>Month 3 - Advanced Topics</h3>
+    <div class="week">
+      <h4>Week 9</h4>
+      <ul>
+        <li>Tracking advanced persistent threats (APT)</li>
+        <li>Using social media and dark web for intelligence</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 10</h4>
+      <ul>
+        <li>Automating intelligence collection and analysis</li>
+        <li>Introduction to machine learning in threat intelligence</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 11</h4>
+      <ul>
+        <li>Collaboration with other security teams</li>
+        <li>Developing an intelligence-driven defense strategy</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 12</h4>
+      <ul>
+        <li>Capstone project: Build and share threat intelligence report</li>
+        <li>Review and career path guidance</li>
+      </ul>
+    </div>
+  </div>
 
-  <p><strong>Tools:</strong> MISP, Maltego, OpenCTI, STIX/TAXII</p>
-
+  <p><strong>Tools:</strong> MISP, OpenCTI, VirusTotal, Maltego</p>
   <div class="resources">
     <strong>Optional Resources:</strong>
     <ul>
-      <li><a href="https://www.misp-project.org/" target="_blank" rel="noopener">MISP Project</a></li>
-      <li><a href="https://www.opencti.io/" target="_blank" rel="noopener">OpenCTI</a></li>
+      <li><a href="https://www.misp-project.org/" target="_blank" rel="noopener">MISP Threat Intelligence Platform</a></li>
+      <li><a href="https://www.anomali.com/resources/what-is-threat-intelligence" target="_blank" rel="noopener">Anomali - Threat Intelligence Overview</a></li>
     </ul>
   </div>
 </section>
 
+<!-- 5. Security Engineer -->
 <section>
   <h2>5. Security Engineer</h2>
   <p><strong>Duration:</strong> 12 Weeks<br/>
-  <strong>Focus:</strong> Building and maintaining security infrastructure and tools.</p>
+  <strong>Focus:</strong> Design and implementation of security controls and architecture.</p>
 
-  <h3>Month 1 - Security Architecture Basics:</h3>
-  <ul>
-    <li>Network security design, endpoint protection</li>
-    <li>Identity and Access Management (IAM)</li>
-    <li>Hands-on: Deploy firewall rules, IAM policies</li>
-  </ul>
+  <div class="month">
+    <h3>Month 1 - Foundations</h3>
+    <div class="week">
+      <h4>Week 1</h4>
+      <ul>
+        <li>Security principles and architecture basics</li>
+        <li>Understanding network security controls</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 2</h4>
+      <ul>
+        <li>Firewalls, IDS/IPS concepts</li>
+        <li>Hands-on configuring network devices</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 3</h4>
+      <ul>
+        <li>Endpoint security technologies</li>
+        <li>Antivirus, EDR basics</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 4</h4>
+      <ul>
+        <li>Identity and Access Management (IAM) fundamentals</li>
+        <li>Role-based access controls (RBAC) implementation</li>
+      </ul>
+    </div>
+  </div>
 
-  <h3>Month 2 - Automation & Tooling:</h3>
-  <ul>
-    <li>Scripting and security automation</li>
-    <li>Vulnerability management systems</li>
-    <li>Hands-on: Automate patching and scanning</li>
-  </ul>
+  <div class="month">
+    <h3>Month 2 - Implementation</h3>
+    <div class="week">
+      <h4>Week 5</h4>
+      <ul>
+        <li>Security in cloud environments (AWS/GCP/Azure basics)</li>
+        <li>Configuring secure network segments</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 6</h4>
+      <ul>
+        <li>Secure configuration management and automation</li>
+        <li>Using infrastructure as code securely</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 7</h4>
+      <ul>
+        <li>Implementing data protection and encryption</li>
+        <li>Backup and disaster recovery planning</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 8</h4>
+      <ul>
+        <li>Security monitoring design</li>
+        <li>Implementing logging and alerting</li>
+      </ul>
+    </div>
+  </div>
 
-  <h3>Month 3 - Advanced Security Engineering:</h3>
-  <ul>
-    <li>Secure DevOps principles</li>
-    <li>Incident detection tooling and monitoring</li>
-    <li>Final project: Build a secure network lab</li>
-  </ul>
+  <div class="month">
+    <h3>Month 3 - Advanced & Review</h3>
+    <div class="week">
+      <h4>Week 9</h4>
+      <ul>
+        <li>Security testing and validation of implemented controls</li>
+        <li>Penetration testing basics for security engineers</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 10</h4>
+      <ul>
+        <li>Documentation and policy creation</li>
+        <li>Security audits and compliance basics</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 11</h4>
+      <ul>
+        <li>Incident response collaboration</li>
+        <li>Security project presentation</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 12</h4>
+      <ul>
+        <li>Skills review</li>
+        <li>Career path advice</li>
+      </ul>
+    </div>
+  </div>
 
-  <p><strong>Tools:</strong> Python, Ansible, Nessus, Splunk</p>
-
+  <p><strong>Tools:</strong> Cisco ASA, Palo Alto firewalls, AWS Security, Ansible, Splunk</p>
   <div class="resources">
-    <strong>Optional
+    <strong>Optional Resources:</strong>
+    <ul>
+      <li><a href="https://www.cisco.com/c/en/us/products/security/firewalls/index.html" target="_blank" rel="noopener">Cisco Firewall Guides</a></li>
+      <li><a href="https://aws.amazon.com/security/" target="_blank" rel="noopener">AWS Security Best Practices</a></li>
+    </ul>
+  </div>
+</section>
+
+<!-- 6. Governance, Risk & Compliance (GRC) -->
+<section>
+  <h2>6. Governance, Risk & Compliance (GRC)</h2>
+  <p><strong>Duration:</strong> 12 Weeks<br/>
+  <strong>Focus:</strong> Policies, risk assessment, compliance frameworks.</p>
+
+  <div class="month">
+    <h3>Month 1 - Fundamentals</h3>
+    <div class="week">
+      <h4>Week 1</h4>
+      <ul>
+        <li>Introduction to cybersecurity governance</li>
+        <li>Understanding risk management basics</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 2</h4>
+      <ul>
+        <li>Overview of compliance frameworks: ISO 27001, NIST, GDPR</li>
+        <li>Building security policies and standards</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 3</h4>
+      <ul>
+        <li>Conducting risk assessments</li>
+        <li>Risk treatment and mitigation strategies</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 4</h4>
+      <ul>
+        <li>Document management and audit preparation</li>
+        <li>Tools for GRC management introduction</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="month">
+    <h3>Month 2 - Implementation</h3>
+    <div class="week">
+      <h4>Week 5</h4>
+      <ul>
+        <li>Performing compliance audits</li>
+        <li>Gap analysis techniques</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 6</h4>
+      <ul>
+        <li>Business continuity planning</li>
+        <li>Incident management policies</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 7</h4>
+      <ul>
+        <li>Vendor risk management</li>
+        <li>Legal and regulatory requirements overview</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 8</h4>
+      <ul>
+        <li>Developing a security awareness program</li>
+        <li>Preparing for external audits</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="month">
+    <h3>Month 3 - Advanced Topics</h3>
+    <div class="week">
+      <h4>Week 9</h4>
+      <ul>
+        <li>Continuous monitoring and improvement</li>
+        <li>Integrating GRC with other security functions</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 10</h4>
+      <ul>
+        <li>Preparing compliance reports</li>
+        <li>Communicating with stakeholders</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 11</h4>
+      <ul>
+        <li>Ethics in cybersecurity governance</li>
+        <li>Case study review</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 12</h4>
+      <ul>
+        <li>Capstone project: Risk assessment and policy draft</li>
+        <li>Career path guidance</li>
+      </ul>
+    </div>
+  </div>
+
+  <p><strong>Tools:</strong> RSA Archer, ServiceNow GRC, MetricStream</p>
+  <div class="resources">
+    <strong>Optional Resources:</strong>
+    <ul>
+      <li><a href="https://www.iso.org/isoiec-27001-information-security.html" target="_blank" rel="noopener">ISO 27001 Overview</a></li>
+      <li><a href="https://www.nist.gov/cyberframework" target="_blank" rel="noopener">NIST Cybersecurity Framework</a></li>
+    </ul>
+  </div>
+</section>
+
+<!-- 7. Cloud Security -->
+<section>
+  <h2>7. Cloud Security</h2>
+  <p><strong>Duration:</strong> 12 Weeks<br/>
+  <strong>Focus:</strong> Securing cloud infrastructure, workloads, identity, and data.</p>
+
+  <div class="month">
+    <h3>Month 1 - Cloud Foundations</h3>
+    <div class="week">
+      <h4>Week 1</h4>
+      <ul>
+        <li>Cloud computing concepts and models (IaaS, PaaS, SaaS)</li>
+        <li>Shared responsibility model</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 2</h4>
+      <ul>
+        <li>Cloud provider overview (AWS, Azure, GCP basics)</li>
+        <li>Identity and Access Management in cloud</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 3</h4>
+      <ul>
+        <li>Cloud network security (VPCs, security groups)</li>
+        <li>Data protection in the cloud</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 4</h4>
+      <ul>
+        <li>Cloud compliance and governance basics</li>
+        <li>Introduction to cloud security tools</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="month">
+    <h3>Month 2 - Cloud Security Implementation</h3>
+    <div class="week">
+      <h4>Week 5</h4>
+      <ul>
+        <li>Configuring cloud IAM securely</li>
+        <li>Implementing encryption and key management</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 6</h4>
+      <ul>
+        <li>Cloud logging and monitoring</li>
+        <li>Incident response in cloud environments</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 7</h4>
+      <ul>
+        <li>Security automation in cloud</li>
+        <li>Infrastructure as code security</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 8</h4>
+      <ul>
+        <li>Managing vulnerabilities in cloud workloads</li>
+        <li>Penetration testing cloud environments</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="month">
+    <h3>Month 3 - Advanced Cloud Security</h3>
+    <div class="week">
+      <h4>Week 9</h4>
+      <ul>
+        <li>Container security (Docker, Kubernetes basics)</li>
+        <li>Serverless security considerations</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 10</h4>
+      <ul>
+        <li>Zero Trust in cloud</li>
+        <li>Advanced threat detection in cloud</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 11</h4>
+      <ul>
+        <li>Case studies of cloud breaches</li>
+        <li>Designing secure cloud architectures</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h4>Week 12</h4>
+      <ul>
+        <li>Capstone project: Secure cloud deployment</li>
+        <li>Career guidance for cloud security roles</li>
+      </ul>
+    </div>
+  </div>
+
+  <p><strong>Tools:</strong> AWS IAM, Azure Security Center, Google Cloud Security Command Center, Terraform</p>
+  <div class="resources">
+    <strong>Optional Resources:</strong>
+    <ul>
+      <li><a href="https://aws.amazon.com/security/" target="_blank" rel="noopener">AWS Security Documentation</a></li>
+      <li><a href="https://learn.microsoft.com/en-us/azure/security/" target="_blank" rel="noopener">Azure Security Docs</a></li>
+    </ul>
+  </div>
+</section>
+
+<!-- Summary -->
+<section>
+  <h2>Summary</h2>
+  <p>This roadmap provides structured learning paths for multiple cybersecurity roles over approximately 3 months each, covering foundational to advanced topics with hands-on tools and optional external resources.</p>
+</section>
+</body>
+</html>
