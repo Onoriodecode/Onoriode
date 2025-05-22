@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cybersecurity Internship Plans Compilation</title>
+<style>
+  body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; max-width: 900px; }
+  h1 { text-align: center; }
+  h2 { color: #003366; border-bottom: 2px solid #003366; padding-bottom: 5px; }
+  h3 { color: #005599; }
+  ul { margin-top: 0; }
+  a { color: #1a0dab; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .resources { margin-top: 10px; }
+</style>
+</head>
+<body>
+
+<h1>Cybersecurity Internship Plans Compilation</h1>
+
+<section>
+  <h2>1. Web Application & API Security</h2>
+  <p><strong>Duration:</strong> 12 Weeks<br/>
+  <strong>Focus:</strong> Secure web application design, testing, API security, threat modeling.</p>
+
+  <h3>Month 1 - Foundations:</h3>
+  <ul>
+    <li>Web application basics, OWASP Top 10</li>
+    <li>API security concepts (REST, GraphQL, OAuth2)</li>
+    <li>Hands-on: Vulnerability scanning, Burp Suite intro</li>
+  </ul>
+
+  <h3>Month 2 - Advanced Testing:</h3>
+  <ul>
+    <li>Manual testing techniques, fuzzing, authentication testing</li>
+    <li>API testing and securing microservices</li>
+    <li>Hands-on: Exploit XSS, SQLi, and API flaws</li>
+  </ul>
+
+  <h3>Month 3 - Automation and Reporting:</h3>
+  <ul>
+    <li>Automation with scripting and CI/CD integration</li>
+    <li>Writing security reports and remediation advice</li>
+    <li>Final project: Secure an API and present findings</li>
+  </ul>
+
+  <p><strong>Tools:</strong> Burp Suite, OWASP ZAP, Postman, GitHub Actions, Python</p>
+
+  <div class="resources">
+    <strong>Optional Resources:</strong>
+    <ul>
+      <li><a href="https://owasp.org/www-project-web-security-testing-guide/" target="_blank" rel="noopener">OWASP Web Security Testing Guide</a></li>
+      <li><a href="https://www.apisecurity.io/" target="_blank" rel="noopener">API Security Best Practices</a></li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>2. Security Operations Center (SOC)</h2>
+  <p><strong>Duration:</strong> 12 Weeks<br/>
+  <strong>Focus:</strong> Monitoring, alerting, log analysis, incident triage.</p>
+
+  <h3>Month 1 - SOC Fundamentals:</h3>
+  <ul>
+    <li>Introduction to SOC roles, SIEM basics (Splunk/ELK)</li>
+    <li>Log sources and log formats</li>
+    <li>Hands-on: Ingest logs, create dashboards</li>
+  </ul>
+
+  <h3>Month 2 - Incident Detection:</h3>
+  <ul>
+    <li>Threat hunting, alert tuning, MITRE ATT&CK framework</li>
+    <li>Use case development and investigation</li>
+    <li>Hands-on: Analyze alerts, hunt threats</li>
+  </ul>
+
+  <h3>Month 3 - Automation & Reporting:</h3>
+  <ul>
+    <li>SOAR concepts, automate common tasks</li>
+    <li>Incident response collaboration</li>
+    <li>Final project: Build detection playbook and simulate incident response</li>
+  </ul>
+
+  <p><strong>Tools:</strong> Splunk, ELK Stack, QRadar, MITRE ATT&CK Navigator</p>
+
+  <div class="resources">
+    <strong>Optional Resources:</strong>
+    <ul>
+      <li><a href="https://attack.mitre.org/" target="_blank" rel="noopener">MITRE ATT&CK Framework</a></li>
+      <li><a href="https://www.splunk.com/en_us/training.html" target="_blank" rel="noopener">Splunk Fundamentals</a></li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>3. Incident Response</h2>
+  <p><strong>Duration:</strong> 12 Weeks<br/>
+  <strong>Focus:</strong> Detecting, analyzing, and responding to security incidents.</p>
+
+  <h3>Month 1 - Incident Response Basics:</h3>
+  <ul>
+    <li>IR lifecycle, preparation and identification</li>
+    <li>Forensics fundamentals, collecting volatile data</li>
+    <li>Hands-on: Capture memory, disk images</li>
+  </ul>
+
+  <h3>Month 2 - Analysis & Containment:</h3>
+  <ul>
+    <li>Malware analysis basics, IOC development</li>
+    <li>Containment strategies and eradication</li>
+    <li>Hands-on: Analyze malware samples, build IOCs</li>
+  </ul>
+
+  <h3>Month 3 - Recovery & Lessons Learned:</h3>
+  <ul>
+    <li>Recovery plans, post-mortem reporting</li>
+    <li>Threat actor tracking and attribution</li>
+    <li>Final project: Full incident simulation and report</li>
+  </ul>
+
+  <p><strong>Tools:</strong> Volatility, Wireshark, Sysinternals, VirusTotal</p>
+
+  <div class="resources">
+    <strong>Optional Resources:</strong>
+    <ul>
+      <li><a href="https://www.sans.org/reading-room/whitepapers/incident/" target="_blank" rel="noopener">SANS Incident Handler's Handbook</a></li>
+      <li><a href="https://www.volatilityfoundation.org/" target="_blank" rel="noopener">Volatility Framework</a></li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>4. Threat Intelligence</h2>
+  <p><strong>Duration:</strong> 12 Weeks<br/>
+  <strong>Focus:</strong> Collecting, analyzing, and operationalizing threat data.</p>
+
+  <h3>Month 1 - Threat Intel Fundamentals:</h3>
+  <ul>
+    <li>Intelligence lifecycle, data sources</li>
+    <li>OSINT tools and techniques</li>
+    <li>Hands-on: Collect and analyze threat data</li>
+  </ul>
+
+  <h3>Month 2 - Analysis & Reporting:</h3>
+  <ul>
+    <li>TTPs, Indicators of Compromise (IOCs)</li>
+    <li>Threat actor profiling</li>
+    <li>Hands-on: Produce intelligence reports</li>
+  </ul>
+
+  <h3>Month 3 - Integration & Automation:</h3>
+  <ul>
+    <li>TI platforms and sharing (MISP, STIX/TAXII)</li>
+    <li>Automate intel feeds and alerting</li>
+    <li>Final project: Develop and present threat intelligence product</li>
+  </ul>
+
+  <p><strong>Tools:</strong> MISP, Maltego, OpenCTI, STIX/TAXII</p>
+
+  <div class="resources">
+    <strong>Optional Resources:</strong>
+    <ul>
+      <li><a href="https://www.misp-project.org/" target="_blank" rel="noopener">MISP Project</a></li>
+      <li><a href="https://www.opencti.io/" target="_blank" rel="noopener">OpenCTI</a></li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>5. Security Engineer</h2>
+  <p><strong>Duration:</strong> 12 Weeks<br/>
+  <strong>Focus:</strong> Building and maintaining security infrastructure and tools.</p>
+
+  <h3>Month 1 - Security Architecture Basics:</h3>
+  <ul>
+    <li>Network security design, endpoint protection</li>
+    <li>Identity and Access Management (IAM)</li>
+    <li>Hands-on: Deploy firewall rules, IAM policies</li>
+  </ul>
+
+  <h3>Month 2 - Automation & Tooling:</h3>
+  <ul>
+    <li>Scripting and security automation</li>
+    <li>Vulnerability management systems</li>
+    <li>Hands-on: Automate patching and scanning</li>
+  </ul>
+
+  <h3>Month 3 - Advanced Security Engineering:</h3>
+  <ul>
+    <li>Secure DevOps principles</li>
+    <li>Incident detection tooling and monitoring</li>
+    <li>Final project: Build a secure network lab</li>
+  </ul>
+
+  <p><strong>Tools:</strong> Python, Ansible, Nessus, Splunk</p>
+
+  <div class="resources">
+    <strong>Optional
