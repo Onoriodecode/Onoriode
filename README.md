@@ -1,4 +1,4 @@
-I am Emmanuel Onoriode Efekodo 
+# I am Emmanuel Onoriode Efekodo 
 
 A Cybersecurity student with Keen focus on ensuring the security of information systems.
 I am experienced in the following domains;
@@ -15,7 +15,7 @@ Blockchain Security
 
 Ethical Hacking 
 
-Seeing my previous works and projects Is a necessity for you 
+# Seeing my previous works and projects Is a necessity for you 
 
 Not just knowing my skills 
 
