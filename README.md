@@ -25,3 +25,15 @@ Also Connect with me on LinkedIn
 
 # Repository Structure 
 
+├── Readme/
+
+├── Education/
+
+├── Projects/
+
+├── Skills/
+
+├── Certificate/
+
+├── Resume/
+
